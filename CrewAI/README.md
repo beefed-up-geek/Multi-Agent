@@ -3,9 +3,9 @@
 ## CrewAI 설명 
 Crew AI는 Tool, Agent, Task와 이들을 통합한 Crew로 이루어져있습니다. 
 다양한 Agent(LLM)가 Crew로 묶여 Tool을 호출하며 Task를 다양한 수행하게됩니다. 
-![overview.png](./img/overview.png) 
+![overview.png](./img/overview.png){ width=60% }
 코드의 구성은 아래와 같습니다. 
-![code_overview.png](./img/code_overview.png) 
+![code_overview.png](./img/code_overview.png){ width=60% }
 ### 🛠️ Tool 
 Agent가 사용하는 툴로 기본 정의된 tool과 커스텀 tool이 존재한다. </br>
 기본 내장 tool은 아래의 코드를 통해 리스트를 확인 가능하다. </br>
