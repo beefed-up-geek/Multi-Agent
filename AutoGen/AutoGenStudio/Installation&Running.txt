@@ -1,0 +1,12 @@
+Installation 
+    1. conda create -n autogen python=3.12
+    2. conda activate autogen
+    3. pip install -U autogenstudio
+    4. [.env가 없다면] export OPENAI_API_KEY=...
+
+Running
+    1. conda activate autogen 
+    2. autogenstudio ui --port 8081 --appdir <원하는 프로젝트 디렉터리 절대경로>
+    3. 
+
+    

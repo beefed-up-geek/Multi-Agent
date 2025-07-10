@@ -1,0 +1,21 @@
+# Define scenarios and expected returns
+initial_investment = 10000  # Example investment amount
+returns = {
+    'Conservative': {
+        '1 Year': initial_investment * 1.05,
+        '3 Years': initial_investment * (1.05 ** 3)
+    },
+    'Base': {
+        '1 Year': initial_investment * 1.10,
+        '3 Years': initial_investment * (1.10 ** 3)
+    },
+    'Aggressive': {
+        '1 Year': initial_investment * 1.15,
+        '3 Years': initial_investment * (1.15 ** 3)
+    }
+}
+
+# Print the results in a simple format with limited decimal places
+print("Expected Returns Simulation:")
+for scenario, values in returns.items():
+    print(f"{scenario}: 1 Year = {values['1 Year']:.2f}, 3 Years = {values['3 Years']:.2f}")
